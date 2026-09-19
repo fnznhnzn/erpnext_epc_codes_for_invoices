@@ -10,3 +10,4 @@ doc_events = {
         "before_save": "erpnext_epc_codes_for_invoices.api.generate_and_save_epc_qr_string"
     }
 }
+
