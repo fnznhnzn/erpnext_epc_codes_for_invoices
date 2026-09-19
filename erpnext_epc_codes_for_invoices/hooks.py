@@ -5,6 +5,12 @@ app_description = "Generate code as base64 and store it in tabSales Order"
 app_email = "km@km-it.de"
 app_license = "mit"
 
+doc_events = {
+    "Sales Invoice": {
+        "before_save": "erpnext_epc_codes_for_invoices.api.generate_and_save_epc_qr_string"
+    }
+}
+
 # Apps
 # ------------------
 
