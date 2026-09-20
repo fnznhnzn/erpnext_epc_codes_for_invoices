@@ -1,6 +1,6 @@
 ### EPC QR codes for invoices
 
-These 2d codes introduced by the European Payment Council appear on invoices to facilitate their recognition by banking apps. While those process invoices reasonably well, an EPC code improves reliability a lot. E-Invoices will make EPC codes redundant in b2b in the long run, no so in b2c. 
+These 2d codes introduced by the European Payment Council appear on invoices to facilitate their recognition by banking apps. While those process invoices reasonably well, an EPC code improves reliability a lot. E-Invoices will make EPC codes redundant in b2b in the long run, but not in b2c. 
 
 Contrary to other implementations, we compile the necessary data points and store the resulting png as a string in the database already when the invoice is saved or submitted. That way, no on-the-fly generation breaks the scheduled creation of invoices such as in subscriptions or auto repeats.
 
